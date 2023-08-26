@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <title>Ezbillify.com</title>
+</head>
+
+<body>
+ <img  class="image"  src="main logo.png" width="25%">
+  <div class="container">
+    <div class="text-box">
+      <h1>Welcome back</h1>
+      <p>Welcome back! Please enter your details</p>
+    </div>
+    <div class="form-container">
+       <form id="login-123">
+        <label for="loginUsername" class="input-group_label">Email</label><br>
+        <input class="int" type="text" id="loginUsername" placeholder="Enter your E-mail"  name="loginUsername" required><br>
+        
+        <label for="loginPassword">Password</label><br>
+        <input class="int" type="password" id="loginPassword" placeholder="Enter your password" name="loginPassword" required><br>
+      </div  >
+      <div class="link"> <input type="checkbox" >Remember for 30 Days <a  href="#">Forgot password</a></div>
+      <button class="btn" type="submit">Sign in</button>
+      </form>
+      <p id="error-message" class="error-message"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
